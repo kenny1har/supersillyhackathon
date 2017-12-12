@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://supersillyhackathon.sg/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Super Silly Hackathon – 9th December 2017</title>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@supersillyhack">
+<meta property="og:url" content="https://supersillyhackathon.sg">
+<meta property="og:title" content="Super Silly Hackathon – 9th December 2017">
+<meta property="og:description" content="Tired of building the next disruptive unicorn? Take a break from making the world a better (ehem!) place and join us at the first Super Silly Hackathon!!">
+<meta property="og:image" content="https://supersillyhackathon.sg/images/ssh-banner.png">
+<script src="./Super Silly Hackathon – 9th December 2017_files/v1" async=""></script>
+<style>
+@font-face {
+  font-family: '🍦';
+  src: url('fonts/vanilla.woff2') format('woff2'), url('vanilla.woff') format('woff');
+}
+::-moz-selection{
+  background-color: #F540FF;
+}
+::selection {
+  background-color: #F540FF;
+}
+html {
+  background: #000E66 url(images/pattern.svg);
+  background-size: 300px;
+  color: #fff;
+  overflow-x: hidden;
+  max-width: 100vw;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: calc(16px + (26 - 16) * (100vw - 400px)/(1200 - 400));
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  max-width: 100vw;
+  line-height: 1.7;
+  scroll-behavior: smooth;
+}
+#👀{
+  margin: 0 auto 2em;
+  max-width: 640px;
+  position: relative;
+  backface-visibility: hidden;
+  transition: transform .075s linear;
+  will-change: transform;
+}
+#👀.transitioning{
+  pointer-events: none;
+}
+#👀.transitioning *{
+  animation-play-state: paused;
+}
+#💥{
+  transform-origin: 50% 30vh 0;
+  transform: rotate(-15deg);
+}
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, button {
+  font-family: 🍦, sans-serif;
+}
+a:not(.👉) {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px ridge #F540FF;
+}
+a:not(.👉):hover {
+  text-shadow: 0px 3px #F540FF;
+}
+a:not(.👉):active {
+  padding-bottom: 5px;
+  text-shadow: 0px 5px #F540FF;
+}
+a.👉 {
+  display: inline-block;
+}
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: #fff;
+  background-color: #000631;
+  padding: 1em 2em;
+  border-radius: 20172017px;
+  border: 3px solid #F540FF;
+}
+p {
+  margin-top: 0;
+  padding-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+header {
+  text-align: center;
+  padding: 2em 0;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+header h1 img {
+  width: 100%;
+  height: auto;
+}
+header p {
+  font-family: 🍦, sans-serif;
+  text-shadow: 3px 3px #000;
+}
+header p:first-of-type a {
+  border-bottom: 0 !important;
+}
+div.👉 {
+  margin-bottom: 1em;
+}
+.👉 button {
+  font-family: 🍦, sans-serif;
+  cursor: pointer;
+  font-size: 1.25em;
+  transition-property: transform, box-shadow, border-color;
+  transition-duration: .1s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.👉 button:hover,
+.👉 button:focus {
+  border-color: transparent;
+  transform: scale(1.2) rotate3d(0, 1, -.2, -15deg);
+  box-shadow: -5px -7px 0 #25DD00, 5px 10px 0 #1F5EFF;
+}
+.👉 button:active {
+  transform: scale(1) rotate(3deg);
+}
+main section {
+  background-color: rgba(0, 14, 102, .85);
+  box-shadow: -15px -8px rgba(0, 6, 31, .5);
+  border-radius: 2em;
+  padding: 1.5em 2em;
+  margin-bottom: 2em;
+}
+main section:nth-child(even) {
+  transform: translateX(-1em) rotate(1deg);
+}
+main h2 {
+  text-shadow: 3px 3px #000;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  margin-left: -.5em;
+  transform: rotate(5deg);
+}
+main h2:first-child {
+  margin-top: 0;
+}
+main section img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+footer {
+  text-shadow: 3px 3px #000;
+  padding: 0 2em 10em;
+  text-align: center;
+}
+footer a {
+  white-space: nowrap;
+}
+.🦄🐱 {
+  filter:
+    drop-shadow(10px 10px 0 rgba(0, 14, 102, .85))
+    drop-shadow(-10px -10px 0 rgba(0, 14, 102, .85));
+  animation: 😼 2s infinite ease-in-out alternate;
+}
+@keyframes 😼 {
+  0% { transform: rotateZ(5deg) }
+  100% { transform: rotateZ(-5deg) }
+}
+em[oji]{
+  font-style: normal;
+  display: inline-block;
+  animation: 🌀 10s infinite linear;
+}
+@keyframes 🌀 {
+  0% { transform: rotateZ(0) }
+  100% { transform: rotateZ(360deg) }
+}
+
+#schedule table {
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#schedule td {
+  vertical-align: top;
+}
+#schedule table tr td:first-child {
+  opacity: .5;
+  padding-right: 1em;
+}
+
+#where img {
+  filter:
+    drop-shadow(10px 10px 0 rgba(0, 14, 102, .85))
+    drop-shadow(-10px -10px 0 rgba(0, 14, 102, .85));
+}
+#where img[src*="01"] {
+  transform: translateX(-4em);
+  border-radius: 2em;
+}
+#where img[src*="02"] {
+  border-radius: 2em;
+  position:relative;
+  margin-top: -3em;
+  margin-bottom: -2em;
+  transform: translateX(3em);
+}
+
+#sponsors ul,
+#sponsors li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#sponsors ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#sponsors li {
+  flex-basis: 260px;
+  text-align: center;
+}
+#sponsors li a {
+  border: 0;
+}
+#sponsors img {
+  margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: rgba(255,255,255,.8);
+  transition: background-color .3s;
+}
+
+#sponsors ul li+li img{
+  width: 90%;
+  max-width: 300px;
+}
+#sponsors ul li+li+li img{
+  width: 85%;
+  max-width: 280px;
+}
+#sponsors ul li+li+li+li img{
+  width: 80%;
+  max-width: 260px;
+}
+#sponsors ul li+li+li+li+li img{
+  width: 75%;
+  max-width: 240px;
+}
+#sponsors ul li+li+li+li+li+li img{
+  width: 70%;
+  max-width: 220px;
+}
+#sponsors ul li+li+li+li+li+li+li img{
+  width: 65%;
+  max-width: 200px;
+}
+
+@media (prefers-reduced-motion) {
+  html {
+    background-attachment: fixed;
+  }
+  body {
+    background-color: rgba(0, 14, 102, .75);
+  }
+  main section {
+    background-color: rgb(0, 14, 102);
+    box-shadow: -15px -8px rgb(0, 6, 31);
+  }
+  main section:nth-child(even),
+  main h2,
+  #💥 {
+    transform: none;
+  }
+  * {
+    animation: none !important;
+    transition-duration: 0 !important;
+  }
+}
+</style>
+</head><body>
+  <div id="👀" style="transform: translate3d(0px, 0px, 0px);">
+    <div id="💥">
+      <header>
+        <h1><img src="./Super Silly Hackathon – 9th December 2017_files/ssh-logo.svg" alt="Super Silly Hackathon" width="590" height="315"></h1>
+        <p>
+          <time>🗓 Saturday, 9th December 2017</time>
+          <br>
+          <a href="https://supersillyhackathon.sg/#where">🗺 Impact Hub Singapore @ Prinsep</a>
+        </p>
+        <div class="👉">
+          <!-- <tito-button event="super-silly-hackathon/yippee">
+            <em oji>👉</em> Get tickets
+          </tito-button> -->
+          <a href="https://engineers.sg/organization/supersillyhackathon">
+            <button><em oji="">👉</em> Check out the videos</button>
+          </a>
+        </div>
+        <p>
+          <a href="https://www.facebook.com/supersillyhackathon">Follow on Facebook!</a>
+          ·
+          <a href="https://discord.gg/wGpBc3t">Chat with us!</a>
+        </p>
+      </header>
+      <main>
+        <section id="what">
+          <h2><em oji="">💩</em> Simi sai?</h2>
+          <p>Tired of building the next unicorn? Take a break from making the world a better place  and join us at the first Super Silly Hackathon!!!</p>
+          <p>Come together with fellow developers, engineers and designers to build cool projects with absolutely no value whatsoever. Yes, the more boliao the better.</p>
+          <p>Don't say we bojio, you hiamjio.</p>
+        </section>
+        <section id="ideas">
+          <h2><em oji="">💡</em> Ideas</h2>
+          <p>Too smart to think of something silly? Here are some ideas:</p>
+          <ul>
+            <li><a href="https://github.com/bdon/eyeball_pong"><b>Eyeball Pong</b></a>
+              <br>Pong game you play by not looking at it.</li>
+            <li><a href="https://bostonstupidhackathon.com/zippable-banana.jpg"><b>Zippable Banana</b></a>
+              <br>A banana peel that you can zip back up later.</li>
+            <li><a href="https://www.youtube.com/watch?v=BRtc7A2eizc"><b>Beer Selfie Stick</b></a>
+              <br>A selfie stick that lets you pour beer in your mouth before you take a photo.</li>
+          </ul>
+          <p>More ideas from <a href="http://www.stupidhackathon.com/">Stupid Hackathon</a> and <a href="https://gist.github.com/cheeaun/c3fe6cbb11aef1e146a3474dccf63b87">more</a>!!</p>
+        </section>
+        <section id="schedule">
+          <h2><em oji="">⏳</em> Schedule</h2>
+          <table>
+            <tbody><tr>
+              <td>09:45</td><td>Arrival &amp; chill</td>
+            </tr>
+            <tr>
+              <td>10:00</td><td>Welcome from hosts &amp; messages from sponsors</td>
+            </tr>
+            <tr>
+              <td>11:00</td><td>Get hacking!</td>
+            </tr>
+            <tr>
+              <td>12:30</td><td>Lunch</td>
+            </tr>
+            <tr>
+              <td>13:30</td><td>More silly hacking!</td>
+            </tr>
+            <tr>
+              <td>18:00</td><td>Dinner &amp; chill</td>
+            </tr>
+            <tr>
+              <td>18:45</td><td>Presentations</td>
+            </tr>
+            <tr>
+              <td>19:30</td><td>Boliao prize giving &amp; final words</td>
+            </tr>
+            <tr>
+              <td>20:30</td><td>It's a wrap!</td>
+            </tr>
+          </tbody></table>
+        </section>
+        <section id="where">
+          <h2><em oji="">🗺</em> Where ah?</h2>
+          <p>
+            <b><a href="http://singapore.impacthub.net/homepage" target="_blank">Impact Hub Singapore</a></b><br>
+            <a href="https://goo.gl/maps/zgjWf9Fsk1L2" target="_blank">128 Prinsep Street, Singapore 188655</a>
+          </p>
+          <p>
+            <img src="./Super Silly Hackathon – 9th December 2017_files/hub-01.jpg" width="640" height="356" alt="Outside Impact Hub Singapore">
+            <br>
+            <img src="./Super Silly Hackathon – 9th December 2017_files/hub-02.jpg" width="640" height="360" alt="Inside Impact Hub Singapore">
+          </p>
+        </section>
+        <section id="prizes">
+          <h2><em oji="">🏆</em> Prizes</h2>
+          <p>Boliao prize?</p>
+        </section>
+        <section id="sponsors">
+          <h2><em oji="">👏</em> Sponsors</h2>
+          <p>Sponsors, come I clap for you.</p>
+          <ul>
+            <li><a href="https://www.microsoft.com/" target="_blank"><img src="./Super Silly Hackathon – 9th December 2017_files/microsoft-logo.svg" width="394" height="85" alt="Microsoft"></a></li>
+            <li><a href="https://www.my-doc.com/" target="_blank"><img src="./Super Silly Hackathon – 9th December 2017_files/mydoc-logo.png" width="512" height="168" alt="MyDoc"></a></li>
+            <li><a href="http://labelgoodprints.com/" target="_blank"><img src="./Super Silly Hackathon – 9th December 2017_files/labelgoodprints-logo.png" width="283" height="130" alt="Label Good Prints"></a></li>
+            <li><a href="https://hasura.io/" target="_blank"><img src="./Super Silly Hackathon – 9th December 2017_files/hasura-logo.png" alt="Hasura"></a></li>
+            <li><a href="http://goldengate.vc/" target="_blank"><img src="./Super Silly Hackathon – 9th December 2017_files/golden-gate-ventures-logo.svg" width="497" height="239" alt="Golden Gate Ventures"></a></li>
+            <li><img src="./Super Silly Hackathon – 9th December 2017_files/hub-logo.png" width="512" height="283" alt="Impact HUB Singapore. A Proud Partner of Google for Entrepreneurs."></li>
+          </ul>
+        </section>
+        <section id="conduct">
+          <h2><em oji="">👐</em> Code of Conduct</h2>
+          <p>Everyone is welcomed at the Super Silly Hackathon so join us! Don't shy.</p>
+          <p>Things you can/should do at the Super Silly Hackathon:</p>
+          <ul>
+            <li>Make super silly things</li>
+            <li>Have fun, make friends</li>
+          </ul>
+          <p>Things you cannot do at the Super Silly Hackathon:</p>
+          <ul>
+            <li>Racist/sexist/discriminatory things</li>
+            <li>Harass or insult other participants</li>
+          </ul>
+          <p>We will remove you from the event or alert the appropriate authorities if you endanger others or act inappropriately. Don't anyhow hor, or you confirm kena.</p>
+          <p>If someone is abusive or causes you to feel uncomfortable, speak to the organizers, or email us at <a href="mailto:hello@supersillyhackathon.sg">hello@supersillyhackathon.sg</a></p>
+          <p>We pinky swear we will do right by you.</p>
+          <p>Modified from: <a href="http://www.stupidhackathon.com/cod.html">http://www.stupidhackathon.com/cod.html</a></p>
+        </section>
+      </main>
+      <footer>
+        <p><img class="🦄🐱" src="./Super Silly Hackathon – 9th December 2017_files/unicat.svg" alt="Unicat!" width="280"></p>
+        <p><a href="https://twitter.com/supersillyhack" class="👉">
+          <button>
+            <svg viewBox="0 0 335 276" width="18" height="18" fill="currentColor">
+              <path d="m302 70a195 195 0 0 1 -299 175 142 142 0 0 0 97 -30 70 70 0 0 1 -58 -47 70 70 0 0 0 31 -2 70 70 0 0 1 -57 -66 70 70 0 0 0 28 5 70 70 0 0 1 -18 -90 195 195 0 0 0 141 72 67 67 0 0 1 116 -62 117 117 0 0 0 43 -17 65 65 0 0 1 -31 38 117 117 0 0 0 39 -11 65 65 0 0 1 -32 35"></path>
+            </svg>
+            @supersillyhack
+          </button>
+        </a></p>
+        <p><a href="mailto:hello@supersillyhackathon.sg">Email us!</a> • <a href="mailto:hello@supersillyhackathon.sg?subject=Sponsor%20Super%20Silly%20Hackathon!">Call for sponsors!</a> • <a href="https://goo.gl/forms/UGQCFF9ctxJznEDy2">Want to volunteer?</a>  • <a href="https://github.com/supersillyhackathon/site">View source</a></p>
+        <p>
+          Organized by <a href="https://twitter.com/ongmin">Min</a>, <a href="https://twitter.com/elishatan">Elisha</a>, <a href="http://bit.ly/super-silly-valentine">Valentine</a> &amp; <a href="https://twitter.com/cheeaun">Aun</a>.
+        </p>
+      </footer>
+    </div>
+  </div>
+  <script async="">
+    var $eye = document.getElementById('👀');
+    var theta = Math.tan(15 * Math.PI / 180).toFixed(3)/1;
+    var eyeStyle = $eye.style;
+    var beforeTop = 0;
+
+    var motionQuery = matchMedia('(prefers-reduced-motion)');
+    var prefersReducedMotion = motionQuery.matches || false;
+    motionQuery.addListener(function(){
+      prefersReducedMotion = motionQuery.matches;
+      if (prefersReducedMotion) eyeStyle.transform = '';
+    });
+
+    var fly = function(){
+      requestAnimationFrame(fly);
+      if (prefersReducedMotion) return;
+      var top = window.scrollY || window.pageYOffset;
+      if (top != beforeTop){
+        var x = -top * theta;
+        // eyeStyle.transform = 'translate3d(' + x + 'px, 0, 0)';
+        eyeStyle.left = x+'px';
+        beforeTop = top;
+      }
+    }
+    fly();
+
+    $eye.addEventListener('transitionstart', function(e){
+      if (e.target == $eye) $eye.classList.add('transitioning');
+    });
+    $eye.addEventListener('transitionend', function(e){
+      if (e.target == $eye) $eye.classList.remove('transitioning');
+    });
+
+    var hashchange = function(){
+      var hash = location.hash.slice(1);
+      if (hash){
+        var el = document.getElementById(hash);
+        if (el){
+          if (el.scrollIntoViewIfNeeded){
+            el.scrollIntoViewIfNeeded();
+          } else {
+            el.scrollIntoView();
+          }
+        }
+      }
+      document.body.scrollLeft = 0;
+    };
+    hashchange();
+    window.onhashchange = hashchange;
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "http://www.schema.org",
+    "@type": "Event",
+    "name": "Super Silly Hackathon",
+    "url": "https://supersillyhackathon.sg",
+    "description": "Tired of building the next disruptive unicorn? Take a break from making the world a better (ehem!) place and join us at the first Super Silly Hackathon!!",
+    "startDate": "2017-12-09T10:00",
+    "endDate": "2017-12-09T21:00",
+    "location": {
+      "@type": "Place",
+      "name": "Impact Hub Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "128 Prinsep Street",
+        "postalCode": "188655",
+        "addressCountry": "Singapore"
+      }
+    }
+  }
+  </script>
+</body></html>
